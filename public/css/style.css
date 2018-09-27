@@ -1,0 +1,7 @@
+body, html, * {margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; list-style: none; font-family: 'Comfortaa', cursive; outline: none; border: none}
+body {width: 100%; height: 100vh; background: -webkit-linear-gradient(-45deg, #fccf31, #f55555); display: flex; align-items: flex-start}
+.authForm {width: 350px; height: auto; margin: 25px auto 0; border: 1px solid #343434; background: #fff; box-shadow: 0px 0px 5px #333; padding: 20px; border-radius: 15px; display: flex; flex-direction: column; align-items: center}
+.username, .password {width: 100%; padding: 10px; border: 1px solid #333; background: #fff; margin-bottom: 15px; border-radius: 10px; font-size: 20px;}
+.username:focus, .password:focus {border: 2px solid #333}
+input[type=submit] {transition: .5s; padding: 10px 30px; color: #fff; font-size: 20px; background: -webkit-linear-gradient(-45deg, #fccf31, #f55555); border-radius: 10px; transition: .5s; margin: 15px 0}
+input[type=submit]:hover {background: -webkit-linear-gradient(-45deg, #f55555, #fccf31)}
